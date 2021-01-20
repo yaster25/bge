@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Фан шоп - Товар</title>
+    <meta name='description' content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />    
+</head>
+
+<body>
+    
+    <!-- BEGIN BODY -->
+    <div class="all-wrap fanshop-product">
+        
+        <!--================================================================================================================ Выпадающее меню -->
+    <input type="checkbox" id="nav-toggle" hidden>
+
+    <nav class="nav">
+        
+        <div class="nav-top">
+            <div class="nav-top__left">
+                <label for="nav-toggle" class="nav-toggle" onclick>
+                    <span class="close-cross">
+                        <span></span>
+                        <span></span>
+                    </span>
+                </label>
+                
+                <span class="nav-hr"></span>
+                
+                <div class="header-search">
+                    <input type="text" name="search" class="header-search__input" placeholder="Что вы ищете?">
+                    <button class="header-search__button"></button>
+                </div>
+                
+            </div>
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="wrapper">
+            
+            <div class="wrap-mobile-menu">
+                <div class="mobile-menu__item">
+                        <div class="mobile-menu__item-title">
+                            категории
+                        </div>
+                        <ul class="mobile-menu__item-ul">
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">ВСЕ</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">EGG одежда</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">Досуг</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">Гаджеты</a>
+                            </li>
+                        </ul>
+                </div>
+                
+                <div class="mobile-menu__item">
+                        <div class="mobile-menu__item-title">
+                            дополнительно
+                        </div>
+                        <ul class="mobile-menu__item-ul">
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">ДОСТАВКА</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">АВТОРСКОЕ ПРАВО</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                            </li>
+                            <li class="mobile-menu__item-li">
+                                <a href="#" class="mobile-menu__item-a">ЗАЯВЛЕНИЕ COOKIE</a>
+                            </li>
+                        </ul>
+                </div>
+                
+                <div class="mobile-menu__item">
+                        <div class="mobile-menu__item-title">
+                            контакты
+                        </div>
+                    <div class="mobile-menu__text">
+                        <p>ООО «Р.Э.Д.»<br>
+                        Официальный дистрибьютор Big Green Egg в России<br>
+                        125319 г. Москва, ул. Черняховского д.5, корп.1</p>
+                        <p>
+                            <a href="#" class="mobile-menu__phone">+7 (495) 956-40-00</a>
+                        </p>
+                        <p>
+                            <a href="#" class="mobile-menu__link">www.biggreenegg.ru</a>
+                        </p>
+                    </div>
+                    
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-youtube.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-vk.png" alt="">
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+         
+            </div>
+        </div>
+    </nav>
+
+    <div class="mask-content"></div>
+
+    <!--================================================================================================================ конец Выпадающее меню -->
+    <div id="anchor"></div>
+        
+        <!-- BEGIN HEADER -->
+        <header class="header" id="header"> 
+            <div class="wrapper">
+                <div class="header__left">
+                    <div class="menu-btn">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header-search">
+                        <input type="text" name="search" class="header-search__input" placeholder="Что вы ищете?">
+                        <button class="header-search__button"></button>
+                    </div>
+                    <div class="header-cart">
+                        <div class="header-cart-link"></div>
+                        <div class="header-cart-info">
+                            <a href="#" class="header-cart-info__close"><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></a>
+                            <div class="header-cart-info-top">
+                                <div class="header-cart-info-top-table">
+                                    <div class="header-cart-info-top-table__col"><b>1</b> Товар в корзине</div>
+                                    <div class="header-cart-info-top-table__col">
+                                        Сумма
+                                        <div class="header-cart-info-top-table__price">135.00 <span>руб.</span></div>
+                                    </div>
+                                </div>
+                                <div class="header-cart-info-top__button">
+                                    <a href="#" class="button">оформить заказ</a>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="header-cart-info-item">
+                                <a href="#" class="header-cart-info-item__img">
+                                    <img src="img/image-product-01.png" alt="">
+                                </a>
+                                <div class="header-cart-info-item__info">
+                                    <div class="header-cart-info-item__name">
+                                        <a href="#">Футболка - Оригинальная</a>
+                                    </div>
+                                    <div class="header-cart-info-item__size">Размер: M</div>
+                                    <div class="header-cart-info-item__price">135.00 руб.</div>
+                                    <div class="header-cart-info-item__bottom">
+                                        <div class="header-cart-info-item__calc">
+                                            <span>Кол-во:</span>
+                                            <div class="product-calc-form">
+                                                <div class="calc-form calc-form_black">
+                                                    <a href="#" class="calc-form__minus"></a>
+                                                    <input type="text" name="value" class="calc-form__input" value="1">
+                                                    <a href="#" class="calc-form__plus"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="header-cart-info-item__action">
+                                            <a href="#" class="header-cart-info-item__edit"></a>
+                                            <a href="#" class="header-cart-info-item__remove"></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="header-cart-info-bottom">
+                                <a href="#" class="link link_black">перейти в корзину</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+           
+        </header>
+         <!-- HEADER EOF   -->
+    <main class="content">
+        <section class="section-top">
+            <div class="wrapper">
+                <h1 class="title">Фан-шоп</h1>
+                <div class="title-text">Откройте для себя наш образ жизни</div>
+            </div>
+        </section>
+        
+        <section class="section-inside">
+            <div class="wrapper">
+                <ul class="breadcrumbs flex">
+                    <li class="breadcrumb-li"><a href="#" class="breadcrumb-a">Главная</a></li>
+                    <li class="breadcrumb-li"><a href="#" class="breadcrumb-a">EGG Одежда</a></li>
+                                                          
+                    <li class="breadcrumb-li">Уличная куртка</li>
+                </ul>
+            <div class="section-product">
+                <div class="y-row">
+                    <div class="y-col y-col-6 section-product__left">
+                        <div class="slider-product">
+                            <div class="slider-product-slide">
+                                <img src="img/image-product-lg-01.png" alt="">
+                            </div>
+                            <div class="slider-product-slide">
+                                <img src="img/image-product-lg-01.png" alt="">
+                            </div>
+                            <div class="slider-product-slide">
+                                <img src="img/image-product-lg-01.png" alt="">
+                            </div>
+                            <div class="slider-product-slide">
+                                <img src="img/image-product-lg-01.png" alt="">
+                            </div>
+                            <div class="slider-product-slide">
+                                <img src="img/image-product-lg-01.png" alt="">
+                            </div>
+                            <div class="slider-product-slide">
+                                <img src="img/image-product-lg-01.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="slider-product-nav">
+                            <div class="slider-product-nav-slide">
+                                <img src="img/image-product-nav-01.png" alt="">
+                            </div>
+                            <div class="slider-product-nav-slide">
+                                <img src="img/image-product-nav-02.png" alt="">
+                            </div>
+                            <div class="slider-product-nav-slide">
+                                <img src="img/image-product-nav-03.png" alt="">
+                            </div>
+                            <div class="slider-product-nav-slide">
+                                <img src="img/image-product-nav-04.png" alt="">
+                            </div>
+                            <div class="slider-product-nav-slide">
+                                <img src="img/image-product-nav-01.png" alt="">
+                            </div>
+                            <div class="slider-product-nav-slide">
+                                <img src="img/image-product-nav-02.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="y-col y-col-6 section-product__right">
+                        <form>
+                            <div class="product-info">
+                                <div class="product-info__name">УЛИЧНАЯ КУРТКА</div>
+                                <div class="product-info__sku">
+                                    <span>SKU</span> 8719325666793.XX
+                                </div>
+                                <div class="product-info__price">135.00 <span>руб.</span></div>
+
+                                <div class="product-info__text">
+                                    <p>Ваш Big Green Egg не боится низких температур и холодных ветров. Эта толстая уличная куртка пригодится. И даже если вечером в солнечный весенний день он остынет, это такой важный предмет, что вы все равно будете брать его из шкафа. Теплая подкладка плюшевого мишки удивительно мягкая, а винтажная матовая металлическая молния привлекает внимание. </p>
+                                </div>
+                                <ul class="product-info__list">
+                                    <li><span>Цвет:</span> темно-синий</li>
+                                    <li><span>Материал:</span> 100% хлопок</li>
+                                    <li><span>Подкладка:</span> 100% полиэстер</li>
+                                    <li>Соответствует размеру</li>                                
+                                </ul>
+                                <ul class="product-info__list">
+                                    <li><span>Код товара:</span>  8719325666809</li>                                
+                                </ul>
+                                
+                                
+                                 <div class="product-size">
+                                    <div class="product-size__title">Размер:</div>
+                                     <div class="product-size-list-wrap">
+                                        <ul class="product-size-list">
+                                            <li>
+                                                <input type="radio" name="size" value="1" class="custom-radio" id="size-1">
+                                                <label for="size-1">M</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="size" value="2" class="custom-radio" id="size-2">
+                                                <label for="size-2">L</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="size" value="3" class="custom-radio" id="size-3">
+                                                <label for="size-3">XL</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="size" value="4" class="custom-radio" id="size-4">
+                                                <label for="size-4">2XL</label>
+                                            </li>
+                                        </ul>
+                                         
+                                    </div>
+                                    <a href="#popup-sizes" class="product-size-link" data-fancybox>Таблица размеров</a>                                     
+                                     <div class="product-size-error">Это поле обязательное для заполнения. <br>Выберите Размер!</div>
+                                     
+                                </div>
+
+
+                                <div class="product-calc">
+                                    <div class="product-calc__title">Количество:</div>
+                                    <div class="product-calc-form">
+                                        <div class="calc-form">
+                                            <a href="#" class="calc-form__minus"></a>
+                                            <input type="text" name="value" class="calc-form__input" value="1">
+                                            <a href="#" class="calc-form__plus"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-calc__button">
+                                        <button class="button js-button-product-cart">добавить в корзину</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                           
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+      
+        
+        
+        
+    </main>
+    <!-- BEGIN FOOTER -->
+    <footer  class="footer">
+        <div class="wrapper">
+            <div class="y-row">
+                <div class="y-col y-col-6">
+                    
+                    <a href="#" class="footer-logo">
+                        <img src="img/logo-lg.png" alt="">
+                    </a>
+                    <ul class="footer-nav">
+                        
+                        <li class="footer-nav-item">
+                            <a href="#" class="footer-nav-item__link">ДОСТАВКА</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="footer-nav-item__link">АВТОРСКОЕ ПРАВО</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="footer-nav-item__link">ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="footer-nav-item__link">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="footer-nav-item__link">ЗАЯВЛЕНИЕ COOKIE</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="y-col y-col-6">
+                    <div class="footer-text">
+                        <div class="footer-text__title">BIG GREEN EGG РОССИЯ</div>
+                        <p>ООО «Р.Э.Д.» - Официальный дистрибьютор Big Green Egg в России<br>125319 г. Москва, ул. Черняховского д.5, корп.1</p>
+                        <a href="tel:+74959564000" class="footer-text__phone">+7 (495) 956-40-00</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="y-row y-row-bottom">
+                <div class="y-col y-col-6">
+                    <ul class="cards">
+                        <li>
+                            <img src="img/ideal.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/paypal.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/bancontact.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/visa.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/mastercard.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/amex.svg" alt="">
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="y-col y-col-6">
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-youtube.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon-vk.png" alt="">
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>  
+        <div class="wrap-go-up up">
+                    <a class="go-up"></a>
+                </div>
+    </footer>
+    <!-- FOOTER EOF   -->
+    
+
+    </div>
+    
+    <div class="hidden">
+        <div class="popup" id="popup-sizes">
+            <div class="popup__title">таблица размеров</div>
+            <div class="popup-tabs">
+                <ul class="popup-tabs-nav">
+                    <li class="popup-tabs-nav__item active" data-tab="tab-1">для женщин</li>
+                    <li class="popup-tabs-nav__item" data-tab="tab-2">для мужчин</li>
+                </ul>
+                <div class="popup-tabs-content active" id="tab-1">
+                    <div class="table-wrap">
+                        <table class="table-size">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>S</th>
+                                <th colspan="2">M</th>
+                                <th colspan="2">L</th>
+                                <th colspan="2">XL</th>
+                                <th>2XL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Размер</td>
+                                <td>44</td>
+                                <td>46</td>
+                                <td>48</td>
+                                <td>50</td>
+                                <td>52</td>
+                                <td>54</td>
+                                <td>56</td>
+                                <td>58</td>
+                            </tr>
+                            <tr>
+                                <td>Обхват груди (см)</td>
+                                <td>88</td>
+                                <td>92</td>
+                                <td>96</td>
+                                <td>100</td>
+                                <td>104</td>
+                                <td>108</td>
+                                <td>111</td>
+                                <td>116</td>
+                            </tr>
+                            <tr>
+                                <td>Обхват бедер (см)</td>                                
+                                <td>96</td>
+                                <td>100</td>
+                                <td>104</td>
+                                <td>108</td>
+                                <td>111</td>
+                                <td>116</td>
+                                <td>120</td>
+                                <td>124</td>
+                            </tr>
+                            <tr>
+                                <td>Рост (см)</td>                                
+                                <td>&lt; 164</td>
+                                <td colspan="2">164-170</td>
+                                <td colspan="2">170-176</td>
+                                <td colspan="2">176-182</td>
+                                <td>182 &gt;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                <div class="popup-tabs-content" id="tab-2">
+                    <div class="table-wrap">
+                        <table class="table-size">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>XS</th>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>L</th>
+                                <th>XL</th>
+                                <th>2XL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Размер</td>
+                                <td>44</td>
+                                <td>46</td>
+                                <td>48</td>
+                                <td>50</td>
+                                <td>52</td>
+                                <td>54</td>
+                            </tr>
+                            <tr>
+                                <td>Обхват груди (см)</td>
+                                <td>88</td>
+                                <td>92</td>
+                                <td>96</td>
+                                <td>100</td>
+                                <td>104</td>
+                                <td>108</td>
+                            </tr>
+                            <tr>
+                                <td>Обхват талии (см)</td>                                
+                                <td>76</td>
+                                <td>80</td>
+                                <td>84</td>
+                                <td>88</td>
+                                <td>92</td>
+                                <td>96</td>
+                            </tr>
+                            <tr>
+                                <td>Обхват шеи (см)</td>                                
+                                <td>38</td>
+                                <td>39</td>
+                                <td>40-41</td>
+                                <td>41-42</td>
+                                <td>42-43</td>
+                                <td>43-44</td>
+                            </tr>
+                            <tr>
+                                <td>Рост (см)</td>                                
+                                <td>&lt; 164</td>
+                                <td>164-170</td>
+                                <td>170-176</td>
+                                <td>176-182</td>
+                                <td>182-186</td>
+                                <td>186 &gt;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup popup_added" id="popup-added">
+            <div class="popup__title-2">Товар добавлен<br>в корзину</div>
+            <a href="#" class="button popup-close">ok</a>
+        </div>
+        
+    </div>
+
+    
+    <!-- BODY EOF   -->
+    <script src="js/jquery-3.4.1.min.js?ver1.0"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js?ver1.0"></script>
+    <script src="js/slick.min.js?ver1.0"></script>
+    <script src="js/jquery.fancybox.min.js?ver1.0"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
