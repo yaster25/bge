@@ -166,6 +166,11 @@ $(document).ready(function(){
          event.stopPropagation();
       });
     
+     $('.aside-filter-title').on('click', function(event) {
+        $(this).next('.aside-filter').slideToggle();
+        return false;
+    });
+    
     
 
 });

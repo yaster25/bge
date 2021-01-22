@@ -649,6 +649,8 @@ ul { list-style: none; }
 .aside-filter-item__link { display: block; color: #fff; font-size: 15px; text-transform: uppercase; font-weight: bold; padding: 13px 24px; }
 .aside-filter-item__link:hover { background: #005638; }
 .aside-filter-item__link.active { background: #005638; }
+.aside-filter-title { display: none; font-size: 16px; position: relative; padding: 15px 20px; color: #fff; background-color: #52c18c; font-weight: bold; text-transform: uppercase; transition: all 0.2s linear; letter-spacing: 1px; text-align: center; margin-bottom: 15px; }
+.aside-filter-title:after { content: ""; background: transparent url(../img/more-arrow.png) right center no-repeat; display: inline-block; width: 13px; height: 12px; transform: rotate(90deg); margin-left: 5px; }
 
 .y-row { margin: 0 -15px -30px; display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
@@ -964,7 +966,9 @@ ul { list-style: none; }
   .table-checkout-total { font-size: 18px; }
   .table-checkout-price { font-size: 16px; }
   .table-checkout-price span { font-size: 12px; }
-  .popup__bottom { margin-left: -15px; margin-right: -15px; padding-left: 15px; padding-right: 15px; } }
+  .popup__bottom { margin-left: -15px; margin-right: -15px; padding-left: 15px; padding-right: 15px; }
+  .aside-filter-title { display: block; }
+  .aside-filter { display: none; } }
 @media screen and (max-width: 639px) { .title { font-size: 28px; }
   .products .y-col-3 { width: 50%; }
   .products-banner { font-size: 24px; letter-spacing: 2px; HEIGHT: 180px; }
